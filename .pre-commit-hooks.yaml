@@ -1,0 +1,6 @@
+- id: terraforder
+  name: terraforder
+  description: Sort Terraform blocks alphabetically
+  entry: terraforder --write
+  language: python
+  files: \.(tf|tfvars)$

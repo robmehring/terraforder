@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terraforder"
+version = "0.1.0"
+description = "Sort Terraform blocks alphabetically, grouped by block type"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.scripts]
+terraforder = "terraforder.cli:main"
+
+[tool.setuptools]
+packages = ["terraforder"]
